@@ -86,6 +86,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 
 #DATABASES = db.SQLITE
+
+#DATABASES = db.POSTGRESQL
 DATABASES = {
     'default': dj_database_url.config(
         default=config('DATABASE_URL')

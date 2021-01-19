@@ -14,14 +14,11 @@ SQLITE = {
 POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db',
+        'NAME': 'db_facturacion',
         'USER': 'postgres',
-        'PASSWORD': '123',
+        'PASSWORD': 'silver',
         'HOST': 'localhost',
         'PORT': '5432',
-        'OPTIONS': {
-            'options': '-c search_path=prueba'
-        },
     }
 }
 
